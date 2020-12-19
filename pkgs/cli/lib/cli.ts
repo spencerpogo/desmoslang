@@ -1,7 +1,10 @@
-'use strict';
+#!/usr/bin/env node
 
-module.exports = cli;
+export default function main() {
+  console.log("Hello world!");
+}
 
-function cli() {
-    // TODO
+// If not being imported
+if (require.main === module) {
+  main();
 }
