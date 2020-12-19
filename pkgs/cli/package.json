@@ -5,14 +5,17 @@
   "author": "Scoder12 <34356756+Scoder12@users.noreply.github.com>",
   "homepage": "https://github.com/Scoder12/desmoslang/tree/master/pkgs/cli#readme",
   "license": "AGPL-3.0-or-later",
-  "main": "lib/index.js",
+  "main": "dist/cli.js",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "files": [
     "lib"
   ],
+  "bin": {
+    "desmosc": "dist/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Scoder12/desmoslang.git"
