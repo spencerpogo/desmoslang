@@ -22,5 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/Scoder12/desmoslang/issues"
-  }
+  },
+  "devDependencies": {}
 }
