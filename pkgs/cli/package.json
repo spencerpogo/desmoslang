@@ -1,0 +1,26 @@
+{
+  "name": "@desmoslang/cli",
+  "version": "0.0.1",
+  "description": "Desmoslang CLI",
+  "author": "Scoder12 <34356756+Scoder12@users.noreply.github.com>",
+  "homepage": "https://github.com/Scoder12/desmoslang/tree/master/pkgs/cli#readme",
+  "license": "AGPL-3.0-or-later",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scoder12/desmoslang.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Scoder12/desmoslang/issues"
+  }
+}
