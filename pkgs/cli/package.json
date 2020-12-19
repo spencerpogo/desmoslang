@@ -21,10 +21,13 @@
     "url": "git+https://github.com/Scoder12/desmoslang.git"
   },
   "scripts": {
+    "dev": "ts-node src/cli.ts",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/Scoder12/desmoslang/issues"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "ts-node": "^9.1.1"
+  }
 }
