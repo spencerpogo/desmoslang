@@ -1,7 +1,10 @@
-'use strict';
+import main from "../src/cli";
 
-const cli = require('..');
+it("prints hello world", () => {
+  const log = jest.spyOn(global.console, "log");
 
-describe('cli', () => {
-    it('needs tests');
+  main();
+  expect(log).toHaveBeenCalledWith("Hello world!");
+
+  log.mockRestore();
 });
